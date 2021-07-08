@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/4584.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #0c6efd;
+}
+
+h1,
+h2,
+h4,
+h6,
+small,
+li {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h6 {
+    color: #7c45e2;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.units {
+    position: relative;
+    top: -22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1;
+    height: 20px;
+    list-style: none;
+}
+
+.app {
+    padding: 20px;
+}
+
+.container {
+    background: linear-gradient(to bottom, #9ddbf0 0%, #ff99cc 100%);
+    margin: 78px auto;
+    padding: 20px;
+    padding-left: 50px;
+    border: 5px solid #bb4f9b;
+    border-radius: 40px;
+    box-shadow: 10px 5px 5px #613274;
+    max-width: 800px;
+    display: block;
+}
+
+hr {
+    width: 85%;
+}
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.col-sm-2 {
+    display: block;
+    text-align: center;
+    padding-right: 70px;
+    padding-top: 10px;
+    min-width: 100px;
+}
+
+h5 {
+    font-size: 35px;
+}
+
+.btn {
+    box-shadow: 3px 3px 5px #093374;
+    border: 2px solid #0c6efd;
+    border-radius: 10px;
+}
