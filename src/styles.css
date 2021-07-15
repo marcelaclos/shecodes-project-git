@@ -40,10 +40,15 @@ h2 {
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     display: inline-block;
 }
+
+h4:first-letter {
+    text-transform: capitalize;
+}
+
 
 .units {
     position: relative;
@@ -108,4 +113,41 @@ h5 {
     box-shadow: 3px 3px 5px #093374;
     border: 2px solid #0c6efd;
     border-radius: 10px;
+}
+
+small {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.weather-temperature img {
+    margin-top: -30px;
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+}
+
+.weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+}
+
+.weather-temperature .active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
 }

@@ -18,91 +18,92 @@
         <div class="app">
             <form class="row" class="form">
                 <div class="col-9">
-                    <input type="text" class="form-control" placeholder="Enter City" id="input-search" />
+                    <input type="text" class="form-control" placeholder="Enter City" id="input-search"
+                        autocomplete="off" />
                 </div>
                 <div class="col-3">
                     <button type="submit" class="btn btn-primary mb-3" class="btn-style">
                         Search
                     </button>
                     <div class="col-3">
-                        <button type="submit" class="btn btn-primary" class="btn-style" id="current-button">
-                            Current
-                        </button>
                     </div>
-
                 </div>
             </form>
             <h1 id="city">
                 Paris
             </h1>
-            <h6 id="day-time">
-                <span id="weekday"></span> <span id="day"> </span>, <span id="hours"></span>:<span id="minutes"></span>
+
+            <h6 id="date">
             </h6>
             <br />
 
             <div class="row">
                 <div class="col-6">
-                    <h4 id="day-description">Sunny</h4>
-                    <h2>☀️ <span class="temperature" id="temp">19</span><span class="units">
-                            <a href="#" id="celsius">°C</a> |
-                            <a href="#" id="faren">°F</a>
-                        </span></h2>
+                    <h4 id="description"></h4>
+                    <div class="clearfix weather-temperature">
+
+                        <div class="float-left">
+                            <img src="" alt="Clear" id="icon" class="float-left" />
+                            <strong id="temp"></strong><span class="units"><a href="#" id="celsius"
+                                    class="active">°C</a> |
+                                <a href="#" id="faren">°F</a></span>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-6">
                     <ul>
-                        <li>Humidity: <span id="humidity">75</span>%</li>
-                        <li>Wind: <span id="wind">14</span> km/hr</li>
-                        <li>Precipitacion:<span id="Precipitacion"> 20%</span></li>
+                        <li>Humidity: <span id="humidity"></span>%</li>
+                        <li>Wind: <span id="wind"></span> km/hr</li>
                     </ul>
-
                     <br />
-                    <div>
-                        <h6>Feels like: 22°C</h6>
-                    </div>
-                    <div>
-                        <button type="button" class="btn btn-outline-primary btn-sm class=" btn"> Change to F°</button>
-                    </div>
                 </div>
             </div>
         </div>
         <hr />
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-2">
                 <div>
                     <h6>Monday</h6>
                 </div>
                 <h5>☀️</h5>
-                <div><small>22°C-12°C</small></div>
+                <div><small>22°C </small></div>
             </div>
             <div class="col-sm-2">
                 <div>
                     <h6>Tuesday</h6>
                 </div>
-                <h5>🌤</h5>
-                <div><small>22°C-12°C </small></div>
+                <h5> 🌤</h5>
+                <div><small>22°C </small></div>
             </div>
             <div class="col-sm-2">
                 <div>
-                    <h6>Wednesday</h6>
+                    <h6>Wednes</h6>
                 </div>
                 <h5> 🌤</h5>
-                <div><small>22°C-12°C </small></div>
+                <div><small>22°C </small></div>
             </div>
             <div class="col-sm-2">
                 <div>
                     <h6>Thursday</h6>
                 </div>
-                <h5>🌧</h5>
-                <div><small>22°C-12°C </small></div>
+                <h5> 🌧</h5>
+                <div><small>22°C </small></div>
             </div>
             <div class="col-sm-2">
                 <div>
                     <h6>Friday</h6>
                 </div>
                 <h5>☀️</h5>
-                <div><small>22°C-12°C </small></div>
+                <div><small>22°C </small></div>
             </div>
         </div>
+
+        <hr> -->
+        <small>
+            <a href="https://github.com/marcelaclos/shecodes-project-git/tree/main" target="_blank">Open-source code</a>
+            by Mars Clos
+        </small>
     </div>
     </div>
     <script src="src/index.js"></script>
