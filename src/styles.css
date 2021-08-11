@@ -1,16 +1,30 @@
 body {
-    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/4584.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/4584.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+
+
+.container {
+  background: linear-gradient(to bottom, #9ddbf0 0%, #ff99cc 100%);
+  margin: 78px auto;
+  padding: 20px;
+  padding-left: 50px;
+  border: 5px solid #bb4f9b;
+  border-radius: 40px;
+  box-shadow: 10px 5px 5px #613274;
+  max-width: 700px;
+}
+
+
 .form {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form-control {
-    border-radius: 10px;
-    border: 1px solid #0c6efd;
+  border-radius: 10px;
+  border: 1px solid #0c6efd;
 }
 
 h1,
@@ -19,159 +33,185 @@ h4,
 h6,
 small,
 li {
-    font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
 }
 
 h6 {
-    color: #7c45e2;
-    font-weight: bold;
-    font-size: 18px;
+  color: #7c45e2;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 h2 {
-    font-size: 55px;
-    font-weight: bold;
+  font-size: 55px;
+  font-weight: bold;
 }
 
 h4 {
-    font-size: 25px;
-    font-weight: bold;
-    display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 h4:first-letter {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 
 .units {
-    position: relative;
-    top: -22px;
-    font-size: 20px;
-    font-weight: bold;
+  position: relative;
+  top: -22px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    font-weight: bold;
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 1;
-    height: 20px;
-    list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1;
+  height: 20px;
+  list-style: none;
 }
 
 .app {
-    padding: 20px;
+  padding: 20px;
 }
 
 .container {
-    background: linear-gradient(to bottom, #9ddbf0 0%, #ff99cc 100%);
-    margin: 78px auto;
-    padding: 20px;
-    padding-left: 50px;
-    border: 5px solid #bb4f9b;
-    border-radius: 40px;
-    box-shadow: 10px 5px 5px #613274;
-    max-width: 800px;
-    display: block;
+  background: linear-gradient(to bottom, #9ddbf0 0%, #ff99cc 100%);
+  margin: 78px auto;
+  padding: 20px;
+  padding-left: 50px;
+  border: 5px solid #bb4f9b;
+  border-radius: 40px;
+  box-shadow: 10px 5px 5px #613274;
+  max-width: 800px;
+  display: block;
 }
 
 hr {
-    width: 85%;
+  width: 85%;
 }
 
 small {
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
-.col-sm-2 {
-    display: block;
-    text-align: center;
-    padding-right: 70px;
-    padding-top: 10px;
-    min-width: 100px;
-}
+
 
 h5 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .btn {
-    box-shadow: 3px 3px 5px #093374;
-    border: 2px solid #0c6efd;
-    border-radius: 10px;
+  box-shadow: 3px 3px 5px #093374;
+  border: 2px solid #0c6efd;
+  border-radius: 10px;
 }
 
 small {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 5px;
-    text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
 
 }
 
 .weather-temperature img {
-    margin-top: -30px;
-    margin-right: 5px;
-    height: 64px;
-    width: 64px;
+  margin-top: -30px;
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
 }
 
 .weather-temperature strong {
-    color: rgb(33, 33, 33);
-    font-size: 64px;
-    line-height: 1;
-    font-weight: 400;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
 }
 
 .weather-temperature .units {
-    position: relative;
-    font-size: 16px;
-    top: -34px;
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
 
 .weather-temperature .active {
-    color: rgb(33, 33, 33);
-    cursor: default;
-    text-decoration: none;
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
 }
 
 .weather-temperature .active:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .weather-forecast {
-    margin-top: 20px;
-    text-align: center;
-    color: #000;
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
 }
 
 .weather-forecast-date {
-    font-size: 16px;
-    opacity: 0.5;
+  font-size: 16px;
+  opacity: 0.5;
 }
 
 .weather-forecast-temperature-min {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .weather-forecast-temperatures {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 hr {
-    width: 95%;
+  width: 95%;
+}
+
+.cityInfo {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cityInfo,
+.tempDisplay,
+.humidityWindDisplay {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "PT Serif", serif;
+}
+
+.github-link {
+  color: #e74cb9;
+  transition: all 120ms ease-in-out;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  color: rgb(125, 85, 199);
+  font-family: "Montserrat", sans-serif;
 }
